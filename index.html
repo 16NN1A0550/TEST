@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script
+    id="sap-ui-bootstrap"
+    src="https://sdk.openui5.org/resources/sap-ui-core.js"
+    data-sap-ui-theme="sap_bluecrystal"
+    data-sap-ui-libs="sap.m"
+    
+></script>
+<script>
+    var oBut = new sap.m.Button("idButton",{
+        text: "My Button",
+        press: function(){
+            $("#idButton").fadeOut(3000);
+        }
+    });
+oBut.placeAt("body");
+</script>
+</head>
+
+<body class="sapuiBody">
+<div id="body"></div>
+</body>
+</html>
