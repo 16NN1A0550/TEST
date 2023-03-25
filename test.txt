@@ -16,7 +16,7 @@
 >>git remote add origin https://github.com/16NN1A0550/TEST.git
 
 6. To push the files to repository
->>git push -u origin main # here 'main' is the repo branch name
+>>git push -u origin main # here 'main' is the repo branchname
 >>git push -u origin <new branchname>
 ex: git push -u origin newbranch
 
