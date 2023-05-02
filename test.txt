@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 08607ddfd19f13380fb2b30113e3b23a875ffda1
 1. Initializing git
 >>git init 
 
@@ -36,4 +39,11 @@ or
 >>git remote set-url origin <url of the new repository>
 
 11. To create new branch
+<<<<<<< HEAD
 >>git checkout -b <new branchname>
+=======
+>>git checkout -b <new branchname>
+
+
+
+>>>>>>> 08607ddfd19f13380fb2b30113e3b23a875ffda1
