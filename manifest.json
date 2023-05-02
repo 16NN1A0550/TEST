@@ -1,6 +1,7 @@
 {
-	"sap.app": {
-		"id": "mn",
-		"type": "application"
-	}
+    "sap.app": {
+        "id": "MN",
+        "type": "application"
+     
+    }
 }

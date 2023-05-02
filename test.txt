@@ -1,1 +1,39 @@
-UI5 Practice
+
+1. Initializing git
+>>git init 
+
+2. To check the status
+>>git status 
+
+3. To add the fiels to local repository
+>>git add .
+>>git add <filename>
+
+4. To commit to git local repository
+>>git commit -m 'message'
+
+
+5. To add the repository address
+>>git remote add origin https://github.com/16NN1A0550/TEST.git
+
+6. To push the files to repository
+>>git push -u origin main # here 'main' is the repo branchname
+>>git push -u origin <new branchname>
+ex: git push -u origin newbranch
+
+7.To check the branch
+>>git branch
+
+8. To switch to main branch
+>>git branch -M main
+or
+>>git branch <new branch name>
+
+9. To get the current repository address
+>>git remote -v 
+
+10. To change the repository address
+>>git remote set-url origin <url of the new repository>
+
+11. To create new branch
+>>git checkout -b <new branchname>
