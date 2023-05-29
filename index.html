@@ -5,20 +5,31 @@
     src="https://sdk.openui5.org/resources/sap-ui-core.js"
     data-sap-ui-theme="sap_bluecrystal"
     data-sap-ui-libs="sap.m"
+    data-sap-ui-compatVersion="edge"
+    data-sap-ui-xx-bindingSyntax="complex"
+	data-sap-ui-onInit="module:sampleproject/webapp/index"
+	data-sap-ui-resourceroots='{
+			"sampleproject/webapp": "./"
+		}'
     
 ></script>
 <script>
-    var oBut = new sap.m.Button("idButton",{
+/*    var oBut = new sap.m.Button("idButton",{
         text: "My Button",
         press: function(){
             $("#idButton").fadeOut(3000);
         }
     });
-oBut.placeAt("body");
-</script>
+oBut.placeAt("body");  */
+/*var oView =  new sap.ui.core.mvc.XMLView({
+    viewName: 'sampleproject.webapp.views.App',
+    
+});
+oView.placeAt("body"); */
+</script> 
 </head>
 
 <body class="sapuiBody">
-<div id="body"></div>
+<div id="body" data-sap-ui-component data-name="sampleproject.webapp"></div>
 </body>
 </html>
